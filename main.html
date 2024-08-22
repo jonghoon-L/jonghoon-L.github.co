@@ -9,27 +9,28 @@
 <body>
     <h1> 이종훈의 포트폴리오 </h1>
     <div id="txt_welcome"> 
-        안녕하세요, 개발자가 되기 위해 준비 하고 있는 이종훈이라고 합니다.
+        안녕하세요! 이종훈의 포트폴리오에 오신 것을 환영합니다.
         <br>
-        저의 프로젝트들을 소개해 드리겠습니다.
+        부족하지만 제가 경험한 프로젝트들을 소개해 드리겠습니다.
         <br>
+        추가적인 설명을 원하시면 하단의 "설명" 버튼을 눌러주세요!
         <br>
     </div>
     <div style="display:grid; grid-template-columns: 1fr 1fr 1fr;">
         <div class="card">
             <img class="card_img" src="./img/1.png">
             <p class="card_title"> 차량 인식 모델 </p>
-            <input class="card_button" type="button" value="Order" onclick="alert(1);">
+            <input class="card_button" type="button" value="설명" onclick="alert('영상 속 차량 객체 탐지 모델로써, roboflow에서 다운로드한 데이터셋을 라벨링하고 모델을 학습시킨 프로젝트입니다.');">
         </div>
         <div class="card">
             <video class="card_video" src="./img/2.mp4" controls></video>
             <p class="card_title"> 건강 관리 어플 "늘편안" </p>
-            <input class="card_button" type="button" value="Order" onclick="alert(2);">
+            <input class="card_button" type="button" value="설명" onclick="alert('모바일 어플리케이션으로 구현되었으며, 해당 프로젝트에서 UI/UX 설계 및 react-native 컴포넌트 구현을 담당하였습니다.');">
         </div>
         <div class="card">
-            <img class="card_img" src="./img/3.jpg">
-            <p class="card_title">  </p>
-            <input class="card_button" type="button" value="Order" onclick="alert(3);">
+            <img class="card_img" src="./img/3.png">
+            <p class="card_title"> SQL Injection 실습 프로젝트 </p>
+            <input class="card_button" type="button" value="설명" onclick="alert('SQL Injection을 활용한 보안 해킹 프로젝트이며, SQL 쿼리를 우회하여 시스템의 flag를 해킹하는 프로젝트입니다. ');">
         </div>
     </div>
 </body>
